@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImg from './../assets/kams.png';
+import ProfileImg from './../assets/kam p3.jpg';
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
                 alt="Kameron Seabrook" 
                 className="w-full object-cover"
                 style={{ 
-                  height: '450px',
+                  height: '540px',
                   objectPosition: '50% 15%' 
                 }}
               />
@@ -28,21 +28,21 @@ const About = () => {
             <div className="border-l-4 border-[#094067] pl-4">
               <h3 className="text-2xl font-semibold text-[#094067] mb-2 font-['Playfair_Display']">From Business Leader to Developer</h3>
               <p className="text-lg text-[#5f6c7b] font-['Poppins']">
-                I bring a unique perspective as a CEO who transitioned into full-stack development, combining business strategy with technical expertise.
+                I bring a unique perspective as a CEO who became a full-stack engineer. This journey has equipped me with the ability to combine business strategy and technical expertise in every team I lead.
               </p>
             </div>
             
             <div className="border-l-4 border-[#094067] pl-4">
-              <h3 className="text-2xl font-semibold text-[#094067] mb-2 font-['Playfair_Display']">Entrepreneurial Journey</h3>
+              <h3 className="text-2xl font-semibold text-[#094067] mb-2 font-['Playfair_Display']">Diverse Skill Set</h3>
               <p className="text-lg text-[#5f6c7b] font-['Poppins']">
-                After successfully leading a subscription-based auto-care business, I identified a critical gap in insurance claims processing, which inspired me to found <span className="font-semibold text-[#094067]">Obai</span>.
+                As a founder, becoming ambidextrous in skill was essential. Beyond my core strengths in team leadership and coding, I've developed proficiency in marketing, design, sales, finance, operations, and even music—a versatility that has led to winning business competitions, generating over 1M Spotify streams, and raising $400,000 in Pre-Seed funding for <span className="font-semibold text-[#094067]">Obai</span>.
               </p>
             </div>
             
             <div className="border-l-4 border-[#094067] pl-4">
-              <h3 className="text-2xl font-semibold text-[#094067] mb-2 font-['Playfair_Display']">Innovative Solutions</h3>
+              <h3 className="text-2xl font-semibold text-[#094067] mb-2 font-['Playfair_Display']">Mission and Impact</h3>
               <p className="text-lg text-[#5f6c7b] font-['Poppins']">
-                Obai leverages cutting-edge technology to detect and estimate property damage—revolutionizing how we assess storm impacts. Facing technical challenges as a founder motivated me to master coding and build solutions myself.
+                Through all my endeavors, I'm passionate about helping others and being a vessel of knowledge, light, and purpose. For every person or team I work with, I take it as a personal mission to leave an impact that results in empowerment, knowledge acquisition, and optimism. At Obai, we're revolutionizing property damage assessment with cutting-edge technology.
               </p>
             </div>
           </div>
