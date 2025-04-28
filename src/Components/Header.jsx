@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-[#f8f5f2] shadow-sm py-4 z-10">
+    <header className="fixed top-0 left-0 right-0 bg-[#f8f5f2] shadow-sm py-4 z-50">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src={icon} alt="Kameron Seabrook Logo" className="w-10 h-10 mr-3" />
@@ -48,7 +48,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-[#f8f5f2] py-4 px-4 shadow-inner">
+        <div className="md:hidden bg-[#f8f5f2] py-4 px-4 shadow-inner z-50">
           <nav>
             <ul className="flex flex-col space-y-4 font-['Poppins']">
               <li><a href="#about" className="block text-[#5f6c7b] hover:text-[#094067] transition-colors" onClick={toggleMenu}>About</a></li>
